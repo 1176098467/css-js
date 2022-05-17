@@ -1,0 +1,118 @@
+/* --------------------------------------------- 初始化页面 ---------------------------------------------- */
+
+html {
+  font-family: 宋体;
+  font-size: 12px;
+  color: #666;
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+div,
+header,
+nav,
+main,
+footer,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #666;
+}
+
+p {
+  text-indent: 2em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #dc0b0b;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0;
+  -moz-outline: 0;
+  -webkit-outline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+#container {
+  display: none;
+}
+
+.heart {
+  margin: 0 auto;
+  width: 938px;
+}
+
+.more {
+  display: block;
+  float: right;
+  width: auto;
+  border-radius: 3px;
+  color: #999;
+}
+
+.main .main-list ul li a {
+  color: #777;
+}
+
+.main .main-list ul li a:hover {
+  color: #dc0b0b;
+}
+
+.main .main-list {
+  user-select: none;
+}
